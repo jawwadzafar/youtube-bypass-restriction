@@ -2,7 +2,7 @@
   "name": "youtube-bypass-restriction",
   "version": "0.1.0",
   "author": "Jawwad Zafar",
-  "homepage": "https://jawwadzafar.github.io/youtube-bypass-restrictioninstagram-dp",
+  "homepage": "https://jawwadzafar.github.io/youtube-bypass-restriction",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
