@@ -5,11 +5,19 @@ const Search = () => {
     e.preventDefault();
     console.log(link);
     if (link) {
-      const u = new URL(link);
-      const id = u.searchParams.get("v");
+      try {
+        const u = new URL(link);
+        const id = u.searchParams.get("v");
 
-      if (id) {
-        window.location.href = `https://www.youtube.com/embed/${id}`;
+        if (id) {
+          window.location.href = `https://www.youtube.com/embed/${id}`;
+        } else {
+          alert("not valid link");
+          setlink("");
+        }
+      } catch (e) {
+        alert("not valid link");
+        setlink("");
       }
     }
   }
