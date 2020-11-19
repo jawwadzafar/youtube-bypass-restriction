@@ -52,7 +52,9 @@ button{
   cursor: pointer;
 }
 @media (max-width:991px){
-
+  .App-logo{
+    height:30vh;
+  }
   input{
     width:100%;
     padding:0px;
@@ -62,4 +64,7 @@ button{
     margin: 0px;
     margin-top: 10px;
   }
+}
+h5{
+  margin-bottom: 10px;
 }
