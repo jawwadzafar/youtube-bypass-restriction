@@ -1,16 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Search from "./Search";
+import Search from "./components/Search";
+import Logo from "./components/Logo";
+import Description from "./components/Description";
+import AppHeader from "./components/AppHeader";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <AppHeader>
+        <Logo />
         <Search />
-        <h5>Bypass age restricted YouTube content</h5>
-        <p>Tip: Open this app in Incognito/Private window</p>
-      </header>
+        <Description />
+      </AppHeader>
     </div>
   );
 }
