@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+*{
+  box-sizing: border-box;
+}
 
 .App-logo {
   height: 20vmin;
@@ -52,12 +55,14 @@ button{
   cursor: pointer;
 }
 @media (max-width:991px){
+  form{
+    width: 92%;
+  }
   .App-logo{
     height:30vh;
   }
   input{
     width:100%;
-    padding:0px;
   }
   button{
     width:100%;
